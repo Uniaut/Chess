@@ -120,7 +120,6 @@ class ChessGame:
         pass
 
 
-@singleton
 class AlgebraicNotationParser:
     def __init__(self):
         self.pieces = set('RrNnBbQqKk')

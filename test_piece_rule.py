@@ -30,5 +30,10 @@ def test_rook():
     print(board)
     assert prm.validate_move('R', (0, 0), (3, 0), board)
 
+
+def test_something():
+    # TODO: write something
+    pass
+
 if __name__ == '__main__':
     test_rook()
